@@ -29,6 +29,7 @@ public class Logger {
                 out.println(s);
                 queue.remove(s);
             }
+            out.close();
             //Violation 3
             //https://wiki.sei.cmu.edu/confluence/display/java/FIO14-J.+Perform+proper+cleanup+at+program+termination
             Runtime.getRuntime().exit(1);
