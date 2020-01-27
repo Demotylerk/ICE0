@@ -36,5 +36,6 @@ public class Logger {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+        Runtime.getRuntime().exit(1);
     }
 }
